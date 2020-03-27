@@ -1,9 +1,9 @@
 # Features
-## 1) Days since first infection
+## 1) Days since first infection (done)
 This feature can be made obsolete if we use sequence prediction models.
-## 2,3) No. of cases/fatalities previous day
+## 2,3) No. of cases/fatalities previous day (won't do because it will affect the testing step of the model)
 Again, made obsolete by sequence prediction.
-## 4) No. of ICUs / population
+## 4) No. of ICUs / population (done)
 Don't know if publicly available for every country, but can probably predict fatality rate.
 ## 5) No. of face masks / population
 Very low probability of getting this type of information from anywhere, but worth a try.  
@@ -12,12 +12,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/
 Since SARS-CoV-2 transmission is similar, there is sufficient reason to believe they are effective against this virus as well.  
 ## 6) Use of off-label medicine/degree of self-medication
 The willingness of the populace to try experimental drugs
-## 7) Chloroquine/Hydroxichloroquine/HCQ + azithromycin use
+## 7) Chloroquine/Hydroxichloroquine/HCQ + azithromycin use (done)
 Countries that have higher than average use of these drugs may have lower infection rates. Look at countries where malaria is present: chloroquine and hydroxichloroquine are antimalarials.  
 Lots of studies (in vitro) and empirical observations confirm this:  
 https://www.nature.com/articles/s41421-020-0156-0  
 https://www.youtube.com/watch?v=n4J8kydOvbc (French)  
-## 8) Avg. age/Ratio between people >55 (>65? >70?) yrs. and total population
+## 8) Avg. age/Ratio between people >55 (>65? >70?) yrs. and total population (done)
 High mortality among the elderly.
 ## 9) GDP per capita
 https://web.archive.org/web/20200322232005/https:/twitter.com/MaxCRoser/status/1241850312203415552  
