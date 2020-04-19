@@ -1,4 +1,4 @@
-Id,Province/State,Country/Region,Lat,Long,Date,ConfirmedCases,Fatalities,RecoveredCases
+Id,Province_State,Country_Region,Lat,Long,Date,ConfirmedCases,Fatalities,RecoveredCases
 0,,Afghanistan,33.0,65.0,2020-01-22,0,0,0.0
 1,,Afghanistan,33.0,65.0,2020-01-23,0,0,0.0
 2,,Afghanistan,33.0,65.0,2020-01-24,0,0,0.0
