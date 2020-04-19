@@ -22,10 +22,11 @@ def main():
 
     final_df = df_c.merge(df_d)
     final_df = final_df.merge(df_r, how='left')
-    final_df['Province/State'] = final_df['Province/State'].fillna('<placeholder>')
+    final_df['Province/State'] = final_df['Province/State'].fillna('')
     final_df['RecoveredCases'] = final_df['RecoveredCases'].fillna(0)
 
-    final_df.to_csv('new_data/train.csv')
+    final_df.to_csv('new_data/train.csv', index_label='Id')
+    print(len(final_df) - final_df.count())
 
 
 if __name__ == '__main__':
