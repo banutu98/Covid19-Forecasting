@@ -26,7 +26,6 @@ def main():
     final_df['RecoveredCases'] = final_df['RecoveredCases'].fillna(0)
 
     final_df.to_csv('new_data/train.csv', index_label='Id')
-    print(len(final_df) - final_df.count())
 
 
 if __name__ == '__main__':
