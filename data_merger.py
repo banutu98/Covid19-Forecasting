@@ -42,6 +42,8 @@ def main():
     final_df = df_c.merge(df_d)
     final_df = final_df.merge(df_r, how='left')
     final_df['Province/State'] = final_df['Province/State'].fillna('')
+    final_df['ConfirmedCases'] = final_df['ConfirmedCases'].fillna(0)
+    final_df['Fatalities'] = final_df['Fatalities'].fillna(0)
     final_df['RecoveredCases'] = final_df['RecoveredCases'].fillna(0)
     final_df = final_df.rename(columns={'Province/State': 'Province_State', 'Country/Region': 'Country_Region'})
 
@@ -49,4 +51,4 @@ def main():
 
 
 if __name__ == '__main__':
-    create_test_data()
+    main()
